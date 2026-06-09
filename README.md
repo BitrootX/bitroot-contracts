@@ -137,7 +137,9 @@ contract/
 
 ```shell
 # Run all tests
-npm test
+npm install
+
+npx hardhat test
 
 # Run specific test suites
 npm run test:securelbp      # SecureLBP tests
