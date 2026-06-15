@@ -1,6 +1,6 @@
-# STTP Smart Contracts
+# STPP Smart Contracts
 
-Hardhat workspace containing Solidity smart contracts for the STTP (Secure Token Presale Protocol) platform. This repository implements the core on-chain logic for permissionless token presales, including Dutch Auctions, Liquidity Bootstrap Pools (LBP), and token vesting mechanisms.
+Hardhat workspace containing Solidity smart contracts for the STPP (Secure Token Presale Protocol) platform. This repository implements the core on-chain logic for permissionless token presales, including Dutch Auctions, Liquidity Bootstrap Pools (LBP), and token vesting mechanisms.
 
 ## Project Structure
 
@@ -137,7 +137,8 @@ contract/
 
 ```shell
 # Run all tests
-npm test
+npm install
+npx hardhat test
 
 # Run specific test suites
 npm run test:securelbp      # SecureLBP tests
@@ -424,4 +425,4 @@ Run specific test suites as documented in the [Available Commands](#available-co
 
 ## License
 
-This project is part of the STTP DApp repository and is licensed under the MIT License. See the root `LICENSE` file for details.
+This project is part of the STPP DApp repository and is licensed under the MIT License. See the root `LICENSE` file for details.
